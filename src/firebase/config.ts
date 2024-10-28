@@ -1,6 +1,8 @@
-import { Analytics, getAnalytics, isSupported } from "firebase/analytics";
-import { getApps, initializeApp } from "firebase/app";
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics, isSupported } from "firebase/analytics";
 
+// Your web app's Firebase configuration using environment variables
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
@@ -10,12 +12,16 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
+
+// Log to confirm if environment variables are loading correctly
+console.log("Firebase Project ID:", process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID);
+
 // Initialize Firebase
-const app =
-  getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
-// Initialize Analytics
-const analytics = isSupported().then((yes: boolean) =>
-  yes ? getAnalytics(app) : null
+const app = initializeApp(firebaseConfig);
+
+// Initialize Analytics if supported
+const analytics = isSupported().then((supported) => 
+  supported ? getAnalytics(app) : null
 );
 
 export { app, analytics };

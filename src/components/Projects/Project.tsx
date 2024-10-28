@@ -9,6 +9,7 @@ import React from "react";
 import { useRecoilValue } from "recoil";
 import useSound from "use-sound";
 import styles from "../../styles/components/Projects.module.scss";
+
 type ProjectProps = {
   data: {
     name: string;
@@ -48,10 +49,12 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
         <div
           className={`${styles.projects_container_project_left_imgContainer}`}
         >
-          <Image
-            className={`${styles.projects_container_project_left_imgContainer_image}`}
-            src={data.image}
-            alt={"project"}
+          <Image 
+            src={data.image} 
+            alt={data.name} 
+            loading="lazy"
+            width={500}  // Set appropriate width
+            height={300} // Set appropriate height
           />
         </div>
       </div>
@@ -143,3 +146,4 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
   );
 };
 export default Project;
+
