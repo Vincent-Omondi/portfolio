@@ -1,6 +1,6 @@
 import qaroraImg from "../../public/images/qarora.png";
 import bookieImg from "../../public/images/bookie.png";
-import myImage from "../../public/images/muhammad.png";
+import myImage from "../../public/images/vincent.png";
 import mutahItImg from "../../public/images/mutah-it.png";
 import randQuoteImg from "../../public/images/randquote.png";
 import redditCloneImg from "../../public/images/reddit-clone.png";
@@ -11,9 +11,9 @@ export const heroData = {
   img: myImage,
   hi: "Hello, my name is",
   name: "Vincent Omondi",
-  expertise: ["Full-stack Developer", "UI/UX Designer"],
+  expertise: ["Full-stack Developer", "Data Engineer"],
   about:
-    "I'm a passionate junior Front-End Developer based in Jordan, currently studying Software Engineering with a strong interest in UI/UX design. I'm committed to creating visually stunning and user-friendly websites, and I'm looking forward to exploring new opportunities to enhance my skills.",
+    "I’m a passionate full-stack developer and data solutions engineer skilled in building intelligent, scalable applications that combine technical precision with data-driven strategy. Blending software expertise with analytical insights, I create seamless digital solutions that empower businesses to innovate and thrive in today’s data-centric world.",
   btnText: "Get my resume",
 };
 
