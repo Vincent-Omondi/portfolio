@@ -39,47 +39,116 @@ export const SkillsData = {
   title: "Skills",
   categories: [
     {
-      title: "Front End",
+      title: "Backend",
       skills: [
-        "HTML",
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "Next",
-        "Redux",
-        "Astro",
-        "Recoil",
-        "GraphQL",
-        "Apollo",
-        "Firebase",
-      ],
+        {
+          category: "Languages",
+          items: [
+            { name: "Go", icon: "devicon:go" },
+            { name: "Python", icon: "logos:python" },
+            { name: "Ruby", icon: "logos:ruby" },
+            { name: "Node.js", icon: "logos:nodejs-icon" },
+          ]
+        },
+        {
+          category: "Frameworks",
+          items: [
+            { name: "Django", icon: "logos:django-icon" },
+            { name: "Rails", icon: "devicon:rails" },
+          ]
+        },
+        {
+          category: "Database Management",
+          items: [
+            { name: "MySQL", icon: "logos:mysql" },
+            { name: "PostgreSQL", icon: "logos:postgresql" },
+            { name: "MongoDB", icon: "skill-icons:mongodb" },
+          ]
+        },
+        {
+          category: "APIs",
+          items: [
+            { name: "REST", icon: "simple-icons:fastapi" },
+            { name: "GraphQL", icon: "logos:graphql" },
+            { name: "gRPC", icon: "logos:grpc" },
+          ]
+        }
+      ]
     },
     {
-      title: "Styling & Design",
+      title: "Frontend",
       skills: [
-        "CSS",
-        "SASS",
-        "BootStrap",
-        "Tailwind CSS",
-        "CSS Module",
-        "Figma",
-        "Styled-Components",
-      ],
+        {
+          category: "Languages",
+          items: [
+            { name: "JavaScript", icon: "logos:javascript" },
+            { name: "TypeScript", icon: "logos:typescript-icon" },
+            { name: "HTML", icon: "logos:html-5" },
+          ]
+        },
+        {
+          category: "Frameworks/Libraries",
+          items: [
+            { name: "React", icon: "logos:react" },
+            { name: "Next", icon: "logos:nextjs-icon" },
+          ]
+        },
+        {
+          category: "Styling",
+          items: [
+            { name: "CSS", icon: "logos:css-3" },
+            { name: "SCSS", icon: "logos:sass" },
+            { name: "Tailwind", icon: "logos:tailwindcss-icon" },
+            { name: "Bootstrap", icon: "logos:bootstrap" },
+          ]
+        },
+        {
+          category: "Build Tools",
+          items: [
+            { name: "Webpack", icon: "logos:webpack" },
+            { name: "Vite", icon: "logos:vitejs" },
+          ]
+        }
+      ]
     },
     {
       title: "Miscellaneous",
       skills: [
-        "Git",
-        "Jest",
-        "Cypress",
-        "Playwright",
-        "react-testing-library",
-        "Webpack",
-        "UI/UX design processes",
-        "REST APIs",
-      ],
-    },
-  ],
+        {
+          category: "Version Control",
+          items: [
+            { name: "Git", icon: "logos:git-icon" },
+            { name: "GitHub", icon: "logos:github-icon" },
+            { name: "GitLab", icon: "logos:gitlab" },
+          ]
+        },
+        {
+          category: "Testing",
+          items: [
+            { name: "Jest", icon: "logos:jest" },
+            { name: "Mocha", icon: "logos:mocha" },
+            { name: "Cypress", icon: "logos:cypress" },
+          ]
+        },
+        {
+          category: "CI/CD",
+          items: [
+            { name: "Docker", icon: "logos:docker-icon" },
+            { name: "Jenkins", icon: "logos:jenkins" },
+            { name: "GitHub Actions", icon: "logos:github-actions" },
+          ]
+        },
+        {
+          category: "Cloud",
+          items: [
+            { name: "AWS", icon: "logos:aws" },
+            { name: "GCP", icon: "logos:google-cloud" },
+            { name: "Azure", icon: "logos:microsoft-azure" },
+          ]
+        }
+      ]
+    }
+  ]
 };
 
 export const contactData = {
