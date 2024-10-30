@@ -132,7 +132,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                 navStateValue.open ? styles.navbar_left_logo_active : ""
               }`}
             >
-              Muhammad Jaafar
+              Vincent Omondi
             </h1>
           </div>
           <div
