@@ -1,11 +1,11 @@
-import qaroraImg from "../../public/images/qarora.png";
+import groupieImg from "../../public/images/groupie.png";
 import bookieImg from "../../public/images/bookie.png";
 import myImage from "../../public/images/vincent.png";
 import mutahItImg from "../../public/images/mutah-it.png";
 import randQuoteImg from "../../public/images/randquote.png";
 import redditCloneImg from "../../public/images/reddit-clone.png";
 import theDojoImg from "../../public/images/the-dojo.png";
-import shawerrImg from "../../public/images/shawerr.png";
+import afyachainImg from "../../public/images/afyachain.png";
 
 export const heroData = {
   img: myImage,
@@ -191,97 +191,33 @@ export const ProjectsData = {
   title: "Projects",
   Projects: [
     {
-      name: "Shawerr",
-      image: shawerrImg,
+      name: "AfyaChain",
+      image: afyachainImg,
       technologies: [
-        "TypeScript",
-        "SvelteKit",
-        "Svelte",
-        "TailwindCss",
-        "Firebase",
+        "Go",
+        "Solidity",
+        "HTML",
+        "CSS",
+        "Javascript",
       ],
       description:
-        "Comprehensive consultant for rebuilding and establishing new products, safety inspection, and product evaluation.",
-      demoUrl: "https://shawerr.com",
+        "AfyaChain is a blockchain-based Electronic Medical Record (EMR) and Health Management Information System (HMIS) designed to address the critical inefficiencies in Kenya's healthcare system.",
+      demoUrl: "https://afyachain.co.ke",
       codeUrl: "",
     },
     {
-      name: "Qarora",
-      image: qaroraImg,
+      name: "Groupie Tracker",
+      image: groupieImg,
       technologies: [
-        "TypeScript",
-        "Next",
-        "React",
-        "TailwindCss",
-        "Firebase",
-        "React Hook Form",
-        "Zod",
+        "Go",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Dockerfile",
       ],
       description:
-        "Qarora is a groundbreaking platform redefining water bottle orders in Jordan. With categorized stations, detailed pages, and an admin panel for easy management, Qarora ensures a seamless experience.",
-      demoUrl: "https://qwater-jo.com",
-      codeUrl: "",
-    },
-    {
-      name: "Bookie",
-      image: bookieImg,
-      technologies: [
-        "TypeScript",
-        "React",
-        "Next",
-        "Redux",
-        "Module SCSS",
-        "Firebase",
-        "Sanity",
-      ],
-      description:
-        "Bookie is a modern e-commerce platform designed exclusively for book lovers. It offers a diverse collection of books across various genres, creating an immersive online bookstore experience. With its sleek and contemporary design, Bookie provides a visually appealing platform for browsing and discovering captivating titles.",
-      demoUrl: "https://bookie-store.vercel.app/",
-      codeUrl: "https://github.com/MuhammadJaafer/bookie",
-    },
-    {
-      name: "Reddit Clone",
-      image: redditCloneImg,
-      technologies: [
-        "TypeScript",
-        "React",
-        "Next",
-        "Recoil",
-        "Styled-Components",
-        "Firebase",
-      ],
-      description:
-        "A fully functional Reddit clone built with the latest technology in the web development field, allowing users to create communities, as well as create, post, and upvote content, comment on and vote on other users' content.",
-      demoUrl: "https://m7-reddit-clone.vercel.app/",
-      codeUrl: "https://github.com/MuhammadJaafer/reddit-clone",
-    },
-    {
-      name: "Mutah IT",
-      technologies: ["JavaScript", "React", "Styled-Components", "Firebase"],
-      image: mutahItImg,
-      description:
-        "A one-stop destination for IT students at Mutah University, the platform provides a wealth of resources, including course explanations, study plans, and trial exams specifically designed for all IT majors at Mutah University.",
-
-      demoUrl: "https://mutah-it.com/",
-      codeUrl: "",
-    },
-    {
-      name: "The Dojo",
-      image: theDojoImg,
-      technologies: ["React", "CSS Module", "Firebase"],
-      description:
-        "The Dojo is a project management website that offers a plethora of useful features, including tools for assigning tasks and real-time communication with team members. It also incorporates a custom-made authentication system to ensure secure access and user management.",
-      demoUrl: "https://the-dojo-app.netlify.app/",
-      codeUrl: "https://github.com/MuhammadJaafer/the-dojo",
-    },
-    {
-      name: "RandQuote",
-      image: randQuoteImg,
-      technologies: ["Javascript", "REST APIs", "OOP"],
-      description:
-        "RandQuote is a website that showcases random quotes, offering features such as copying the quote or saving it as an image. It also provides translation between Arabic and English. All of these features have been implemented using vanilla JavaScript and an object-oriented programming (OOP) architecture.",
-      demoUrl: "https://randquotee.netlify.app/",
-      codeUrl: "https://github.com/MuhammadJaafer/randQuote",
+        "Consists of receiving a given API and manipulating the data contained in it to create a site and display the information about music artists, their concert locations, and related dates.",
+      codeUrl: "https://github.com/Vincent-Omondi/groupie-tracker.git",
     },
   ],
 };
